@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_2C
+namespace CLinkedList
 {
     class EmptyListException : System.Exception { }
     class CLinkedList
     {
+         /*************by:
+                        Gabriel Mendez Reyes -***************/
+       
 
         // Nodo del Circular Linked List, identico al nodo de un Doubly Linked List
         class CLinkNode

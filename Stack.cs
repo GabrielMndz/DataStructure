@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trie
+namespace Stack
 {
-    class DuplicateKeyException : Exception { }
-    class KeyNotFoundException : Exception { }
+    class StackVaciaException : Exception { }
 
     class Stack<Item>
     {
+         /*************by:
+                        Gabriel Mendez Reyes -***************/
+       
         private Item[] arr;
         public int size { get; private set; }
 

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 
 
-namespace Lab_3V
+namespace AVLTree
 {
     class DuplicateKeyException : Exception { }
     class InvalidRotation : Exception { }
     class NotSuccessorFound : Exception { }
     class NotAVLTree
     {
-
-        /*           Gabriel Mendez Reyes - 1071470          */
+        /*************by:
+                        Gabriel Mendez Reyes -***************/
 
         class TreeNode : IComparable
         {
@@ -35,7 +35,6 @@ namespace Lab_3V
 
             // Convertir el subtree cuya raiz es este nodo a un string (para
             // verificar que su codigo de conversion funciona)
-            // Nota: les sugiero que ignoren este codigo
             override public string ToString()
             {
                 StringBuilder sb = new StringBuilder();
@@ -131,7 +130,7 @@ namespace Lab_3V
          **/
         public bool Remove(int key)
         {
-            // TODO: algoritmo implementado:
+            // TODO: Algoritmo implementado:
             //       1) Buscar el nodo X que contiene key
             //       2) Si X es un leaf o tiene un solo hijo, borralo como fue
             //          descrito para Hibbard's Delete

@@ -2,8 +2,12 @@ class EmptyListException extends Exception { }
 
 /**
  * Singly Linked List
+    /*************by:
+                      Gabriel Mendez Reyes -***************/
+
  */
 public class SLinkedList {
+    
     // Nodo del Linked List
     class SLinkNode
     {

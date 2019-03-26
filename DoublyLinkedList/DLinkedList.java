@@ -1,4 +1,6 @@
 // Doubly Linked List, definido con Generics
+        /*************by:
+                        Gabriel Mendez Reyes -***************/
 
 public class DLinkedList <Value> {
     /**

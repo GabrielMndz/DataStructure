@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboratorio01___B
+namespace DynArray
 {
     class EmptyException : System.Exception { }
     class DynamicArray
     {
+        /*************by:
+                        Gabriel Mendez Reyes -***************/
+
         private int[] arr = new int[1];
         private int size = 0;
 

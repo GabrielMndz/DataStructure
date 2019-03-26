@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_1A
+namespace DynString
 {
     class DynString
     {
+        /*************by:
+                        Gabriel Mendez Reyes -***************/
+        
         private const int FACTOR_CRECIMIENTO = 2;
         private char[] arr;       // arreglo (dinamico) que representa el string
         public int Size { get; private set; }  // cantidad de caracteres en el string

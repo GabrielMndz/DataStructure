@@ -9,6 +9,9 @@ namespace DictionarySeparateChaining
     class DuplicaKey : System.Exception { }
     class Diccionario<Item>
     {
+         /*************by:
+                        Gabriel Mendez Reyes -***************/
+       
         class KeyItemPair
         {
             public int key { get; private set; }

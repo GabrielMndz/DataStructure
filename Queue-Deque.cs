@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboratorio01
+namespace Queue
 {
     class EmptyException : System.Exception { }
     class Deque
     {
+        /*************by:
+                        Gabriel Mendez Reyes -***************/
 
         private int[] arr = new int[5];  // el arreglo circular
         private int head = 0;  // head es el indice del elemento en frente de la cola

@@ -1,23 +1,3 @@
-/*
- *
- * Puntos ejercicio: 8 + 1 extra
- *
- * En este ejercicio, implementaremos algunas operaciones sobre un Singly
- * Linked List.  Las operaciones estan marcadas con el tag TODO.  En estas
- * operaciones, solo se permite cambiar el campo next de SLinkNode.
- *
- * No se permite:
- *   1) Crear arreglos
- *   2) Alterar el value en SLinkNode
- *
- * Instrucciones adicionales:
- *   a) No borren los comments que existen en este codigo
- *   b) No se permite usar las estructuras de datos en java.util.*
- *   c) Se permite agregar campos adicionales en la declaracion de las clases,
- *      pero no usar dummy nodes
- *   d) Se permite agregar parametros adicionales a los metodos
- *
- */
 public class Main {
 
     public static void main(String[] args) throws EmptyListException {
